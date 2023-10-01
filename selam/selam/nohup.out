@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/Hp/Desktop/selam_project/selam/selam/manage.py", line 22, in <module>
+    main()
+  File "/mnt/c/Users/Hp/Desktop/selam_project/selam/selam/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/__init__.py", line 382, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python3.11/dist-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.11/dist-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/mnt/c/Users/Hp/Desktop/selam_project/selam/selam/selam/settings.py", line 29
+    ALLOWED_HOSTS = [http://127.0.0.1:8000/]
+                         ^
+SyntaxError: invalid syntax
